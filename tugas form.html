@@ -1,0 +1,49 @@
+<html>
+    <style type="text/css">
+        body{
+            background-color:rgb(72, 122, 107)
+        }
+        </style>
+<body>
+<h2 align="center">Form Pendaftaran</h2>
+<center><table boder="1"bgcolor="#FF6633"></center>
+<form method="post" action="proses.php">
+<tr>
+	<td>Nama</td>
+    <td width="200"><input type="text" name="nama"size="10"/></td>
+</tr>
+<tr>
+	<td>Jenis kelamin</td>
+    <td><select name="jk" size="1">
+    		<option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select></td>
+</tr>
+<tr>
+  <td>Agama</td>
+  <td>
+  <input type="radio" name="hobby" value="Islam">Islam</option><br/>
+  <input type="radio" name="hobby" value="katholik">katholik</option><br/>		  <input type="radio" name="hobby" value="Protestan">Protestan</option><br/>
+  <input type="radio" name="hobby" value="Hindu">Hindu</option><br/>
+  <input type="radio" name="hobby" value="Budha">Budha</option></option>
+  </td>
+</tr>
+<tr>
+	<td>Hobby</td>
+    <td><input type="checkbox" name="hobby" value="Browsing"/>Browsing<br/>
+    	<input type="checkbox" name="hobby" value="Browsing"/>Game<br/>
+        <input type="checkbox" name="hobby" value="Browsing"/>Olah Raga
+   </td>
+</tr>
+<tr>
+	<td>Alamat</td>
+    <td><textarea name="alamat" cols="20" rows="5"></textarea></td>
+</tr>
+<tr>
+	<td><input type="submit" value="Kirim"/></td>
+    <td><input type="reset" value="Batal"/></td>
+</tr>
+</form>
+</body>     
+
+</html>
