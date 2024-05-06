@@ -1,0 +1,45 @@
+/* Style anchor elements */
+a {
+    color: #333; /* Dark gray color for text */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #666; /* Darken text color on hover */
+}
+
+/* Style navigation menu */
+.menu {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 10px 0; /* Add padding top and bottom */
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+}
+
+/* Style list items */
+li {
+    list-style: none; /* Remove default bullet points */
+    margin: 0 15px; /* Add space between menu items */
+}
+
+/* Style unordered list */
+ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style tabs */
+.TAB {
+    font-size: 16px; /* Decrease font size */
+    font-weight: bold; /* Add bold font weight */
+    padding: 8px 12px; /* Add padding to tabs */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #f0f0f0; /* Light gray background color */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.TAB:hover {
+    background-color: #e0e0e0; /* Darken background color on hover */
+}
